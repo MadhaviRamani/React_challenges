@@ -6,11 +6,11 @@ export default function App() {
 function AppAttributes() {
   return (
     <article className="article">
-      <h2 className="article__title">Movie Name:</h2>
-      <label htmlFor="text">name:</label>
-      <input id="text" placeholder="Movie name" />
-      <a className="article__link" href="#">
-        submit
+      <h2 className="article__title">React Attributes</h2>
+      <label htmlFor="text">Attributes</label>
+      <input id="text" placeholder="search" />
+      <a className="article__link" href="https://www.w3schools.com/">
+        w3school
       </a>
     </article>
   );
