@@ -1,6 +1,6 @@
 export default function App() {
-  return <Greeting name="Hiii... I am Madhavi"/>;
+  return <Greeting name="Madhavi"/>;
 }
 function Greeting({name}){
-return <h1>{name}</h1>;
+return <h1>Hello,{name === "Jessica" ? "Coach" : name}!</h1>;
 }
