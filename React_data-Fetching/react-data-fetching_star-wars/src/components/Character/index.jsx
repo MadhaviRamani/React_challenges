@@ -14,8 +14,8 @@ const fetcher = async (url) => {
 };
 
 export default function Character({id}) {
-  const URL = `https://swapi.py4e.com/api/people/${id}`
-  const {data, error, isLoading} = useSWR(URL,fetcher);
+  const url = `https://swapi.py4e.com/api/people/${id}`
+  const {data, error, isLoading} = useSWR(url,fetcher);
   
  if (error) {
     return <p>Error: {error.message} (Status: {error.status})</p>;
